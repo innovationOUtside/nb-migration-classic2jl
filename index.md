@@ -25,7 +25,7 @@ Extension update guide:
 
 JupyterLab/nb7 does not have the "nbextensions configurator" tab view that could be installed into the classic notebook environment; Jupyterlab / nb7 extension settings can be found via the `Settings -> Settings editor` menu option.
 
-JupyterLab OU branding extension (pending updates to core VCE): [`innovationOUtside/jupyterlab-ou-brand-extension`](https://github.com/innovationOUtside/jupyterlab_ou_brand_extension/)
+JupyterLab OU branding extension (branding is not otherwise currently provided by core VCE): [`innovationOUtside/jupyterlab-ou-brand-extension`](https://github.com/innovationOUtside/jupyterlab_ou_brand_extension/)
 
 Tag / metadata update:
 
