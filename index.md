@@ -7,7 +7,7 @@ Whilst there should be minimal disruption to code execution when moving from Jup
 
 Please feel free to post an issue [here](https://github.com/innovationOUtside/nb-migration-classic2jl/issues) describing any notebook migration issues you encounter for which mitigation or a solution has not been described.
 
-*For a complete description of extensions used in the TM351 VCE, as well as the installer pack used to install all the extensions, and recommended default settings for user-installed and core JupyterLab / nmbv7 extensions, see [here](https://innovationoutside.github.io/ou-tm351-jl-extensions/).*
+*For a complete description of extensions used in the TM351 VCE, as well as the installer pack used to install all the extensions, and recommended default settings for user-installed and core JupyterLab / nbv7 extensions, see [here](https://innovationoutside.github.io/ou-tm351-jl-extensions/).*
 
 ## Migration Notes
 
