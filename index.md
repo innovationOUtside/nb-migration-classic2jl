@@ -46,5 +46,5 @@ Migrating to JuptyerLab/nb7 presents various opportuinities for enriching how ma
 ## Other enhancement opportunities
 
 - use of [`ipywidgets` / Jupyter widgets](https://ipywidgets.readthedocs.io/en/latest/) to create simple "apps" around functions
-- creating interactive slideshows from notebooks (e.g. [`RISE`](https://rise.readthedocs.io/en/latest/)
+- creating interactive slideshows from notebooks (e.g. [`RISE`](https://rise.readthedocs.io/en/latest/))
 - creating standalone applications / dashboards from notebooks (e.g. [`Voila`](https://voila.readthedocs.io/en/stable/using.html))
