@@ -19,11 +19,11 @@ Extension update guide:
 | Cell execution status  | [`nb_cell_execution_status`](https://github.com/innovationOUtside/nb_cell_execution_status/) | [`jupyterlab_cell_status_extension`](https://github.com/innovationOUtside/jupyterlab_cell_status_extension)| Just update package name |
 | Spellchecker | [`nbextensions/spellchecker`](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/spellchecker/README.html)|[`jupyterlab-contrib/spellchecker`](https://github.com/jupyterlab-contrib/spellchecker)|Just update package name |
 |Download zip archive|[`nbzip`](https://github.com/data-8/nbzip)|[`jupyter-archive`](https://github.com/jupyterlab-contrib/jupyter-archive)|Just update package name|
-|Skip traceback| [nbextensions/skip-traceback](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/skip-traceback/readme.html)|[`jupyterlab-skip-traceback`](https://github.com/deshaw/jupyterlab-skip-traceback)| Update package name; [update settings](https://innovationoutside.github.io/ou-tm351-jl-extensions/settings-skip-traceback.html) to show folded trace by default|
+|Skip traceback| [`nbextensions/skip-traceback`](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/skip-traceback/readme.html)|[`jupyterlab-skip-traceback`](https://github.com/deshaw/jupyterlab-skip-traceback)| Update package name; [update settings](https://innovationoutside.github.io/ou-tm351-jl-extensions/settings-skip-traceback.html) to show folded trace by default|
 |Collapsible headings|[`nbextensions/collapsible_headings`](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html)|*Native in JL4/nb7*||
 |Table of contents|[`nbextensions/toc2`](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html)|*Native in JL4/nb7*||
 
-JupyterLab/nb7 does not have an "nbextensions configurator" tab view that could be installed into the classic notebook environment; Jupyterlab / nb7 extension settings can be found via the `Settings -> Settings editor` menu option.
+JupyterLab/nb7 does not have the "nbextensions configurator" tab view that could be installed into the classic notebook environment; Jupyterlab / nb7 extension settings can be found via the `Settings -> Settings editor` menu option.
 
 JupyterLab OU branding extension (pending updates to core VCE): [`innovationOUtside/jupyterlab-ou-brand-extension`](https://github.com/innovationOUtside/jupyterlab_ou_brand_extension/)
 
@@ -42,3 +42,9 @@ Migrating to JuptyerLab/nb7 presents various opportuinities for enriching how ma
 - JupyterLab / nb7 supports the description of diagrams in markdown cells written using mermaid.js;
 - the [`jupyterlab-myst`](https://github.com/executablebooks/jupyterlab-myst) adds support for MyST markdown in markdown cells; this includes improved tooltip support, inline, styled "breakout" boxes (admonitions: notes, warnings, hints, etc.);
 - IDE style "expandable tree" based file/directory navigation via [`jupyterlab-unfold`](https://github.com/jupyterlab-contrib/jupyterlab-unfold) extension.
+
+## Other enhancement opportunities
+
+- use of [`ipywidgets` / Jupyter widgets](https://ipywidgets.readthedocs.io/en/latest/) to create simple "apps" around functions
+- creating interactive slideshows from notebooks (e.g. [`RISE`](https://rise.readthedocs.io/en/latest/)
+- creating standalone applications / dashboards from notebooks (e.g. [`Voila`](https://voila.readthedocs.io/en/stable/using.html))
