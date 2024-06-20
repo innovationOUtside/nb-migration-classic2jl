@@ -7,7 +7,9 @@ Whilst there should be minimal disruption to code execution when moving from Jup
 
 Please feel free to post an issue [here](https://github.com/innovationOUtside/nb-migration-classic2jl/issues) describing any notebook migration issues you encounter for which mitigation or a solution has not been described.
 
-*For a complete description of extensions used in the TM351 VCE, as well as the installer pack used to install all the extensions, and recommended default settings for user-isntalled and core JupyterLab / nmbv7 extensions, see [here](https://innovationoutside.github.io/ou-tm351-jl-extensions/).*
+*For a complete description of extensions used in the TM351 VCE, as well as the installer pack used to install all the extensions, and recommended default settings for user-installed and core JupyterLab / nmbv7 extensions, see [here](https://innovationoutside.github.io/ou-tm351-jl-extensions/).*
+
+## Migration Notes
 
 Extension update guide:
 
@@ -21,6 +23,8 @@ Extension update guide:
 |Collapsible headings|[`nbextensions/collapsible_headings`](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html)|*Native in JL4/nb7*||
 |Table of contents|[`nbextensions/toc2`](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html)|*Native in JL4/nb7*||
 
+JupyterLab/nb7 does not have an "nbextensions configurator" tab view that could be installed into the classic notebook environment; Jupyterlab / nb7 extension settings can be found via the `Settings -> Settings editor` menu option.
+
 JupyterLab OU branding extension (pending updates to core VCE): [`innovationOUtside/jupyterlab-ou-brand-extension`](https://github.com/innovationOUtside/jupyterlab_ou_brand_extension/)
 
 Tag / metadata update:
@@ -30,3 +34,11 @@ Tag / metadata update:
 | Collapsible headings|Metadata (collapsed header): `heading_collapsed: true`|Metadata (collapsed header): `"jp-MarkdownHeadingCollapsed": true` | Optional 'hidden' metadata in collapsed hidden cells can be removed.|
 
 A command line tool to update notebook cell tag/metadata will be available here by Weds 26/6/24 at the latest.
+
+## Enhancement opportunities
+
+Migrating to JuptyerLab/nb7 presents various opportuinities for enriching how materials are presented:
+
+- JupyterLab / nb7 supports the description of diagrams in markdown cells written using mermaid.js;
+- the [`jupyterlab-myst`](https://github.com/executablebooks/jupyterlab-myst) adds support for MyST markdown in markdown cells; this includes improved tooltip support, inline, styled "breakout" boxes (admonitions: notes, warnings, hints, etc.);
+- IDE style "expandable tree" based file/directory navigation via [`jupyterlab-unfold`](https://github.com/jupyterlab-contrib/jupyterlab-unfold) extension.
