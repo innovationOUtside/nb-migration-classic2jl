@@ -33,7 +33,7 @@ Tag / metadata update:
 | ------------- | ------------- |  ------------- | ------------- | 
 | Collapsible headings|Metadata (collapsed header): `heading_collapsed: true`|Metadata (collapsed header): `"jp-MarkdownHeadingCollapsed": true` | Optional 'hidden' metadata in collapsed hidden cells can be removed.|
 
-A command line tool to update notebook cell tag/metadata will be available here by Weds 26/6/24 at the latest.
+A command line tool to update notebook cell tag/metadata is available in the [`nb_workflow_tools`](https://github.com/innovationOUtside/nb_workflow_tools?tab=readme-ov-file#notebook-metadata-updater---classicnb2jl-extension-metadata) Python package; (`pip install nb_workflow_tools` then run `cnb_collapse_head_migrate PATH_TO_NOTEBOOKS` ),
 
 ## Enhancement opportunities
 
